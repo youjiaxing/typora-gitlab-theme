@@ -45,19 +45,19 @@
 }
 
 html {
-    font-size: .925rem;
+    font-size: 16px;
 }
 
 body {
     background: none;
     font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #2e2e2e;
+    color: rgb(51, 51, 51);
     line-height: 1.6;
     height: 100%;
 }
 
 #write {
-    max-width: 990px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 30px;
     padding-bottom: 100px;
@@ -411,7 +411,7 @@ code {
 }
 
 #typora-sidebar .file-tree-node.file-library-file-node {
-    padding: 0;
+    padding: 0 0 0 8px;
 }
 
 #typora-sidebar .file-tree-node.file-library-file-node.active .file-node-title {
@@ -420,7 +420,7 @@ code {
 
 #typora-sidebar .file-tree-node {
     border: 0;
-    padding: 0;
+    padding: 0 0 0 8px;
     margin: 0;
 }
 
@@ -443,7 +443,7 @@ code {
 }
 
 .file-node-content {
-    padding: 15px 5px;
+    padding: 5px 5px 0 0;
 }
 
 .file-node-content:hover {
@@ -686,7 +686,7 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("gitlab/logo.png") no-repeat 45% 90% transparent;
+    /*background: url("gitlab/logo.png") no-repeat 45% 90% transparent;*/
     background-size: cover;
     opacity: 0;
     height: 100%;
